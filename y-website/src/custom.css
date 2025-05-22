@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #A7C7E7; /* Soft blue for headers, buttons */
+    --secondary-color: #D9EAD3; /* Light green for accents */
+    --background-color: #F0F4F8; /* Light neutral background */
+    --text-color: #333333; /* Dark text for readability */
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+  }
+  
+  .navbar {
+    background-color: var(--primary-color) !important;
+  }
+  
+  .btn-primary {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .hero {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  }
